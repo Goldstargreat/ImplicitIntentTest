@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity
 
     // 액티비티가 다른 화면에 가리어졌다가 다시 나타날 때
 
-
     View.OnClickListener btnListener = new View.OnClickListener()
     {
         @Override
