@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onStart()
     {
-        super.onStop();
+        super.onStart();
         Log.i("로그확인", "onStart() 호출");
     }
     @Override
