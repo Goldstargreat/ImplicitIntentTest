@@ -54,6 +54,12 @@ public class MainActivity extends AppCompatActivity
         Log.i("로그확인", "onPause() 호출");
     }
     @Override
+    protected void onStart()
+    {
+        super.onStop();
+        Log.i("로그확인", "onStart() 호출");
+    }
+    @Override
     protected void onStop()
     {
         super.onStop();
